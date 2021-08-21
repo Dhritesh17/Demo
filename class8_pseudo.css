@@ -1,0 +1,41 @@
+/* PSEUDO CLASS */
+.btn{
+    background-color: green;
+    color: white;
+}
+
+.btn:hover{
+    background-color: red;
+    color: yellows;
+}
+
+.btn:active{
+    /* when user click on the element */
+    background-color: darkgoldenrod;
+    color: purple;
+}
+
+.btn:focus{
+    /* after clicking the color change become permanet as it is focused */
+    background-color: royalblue;
+    color: floralwhite;
+}
+
+/* PSEUDO ELEMENT */
+.para::before{
+    /* psedo element has double colon 
+        it can be used for writing the content multiple times */
+    content: "My name is ";
+    color: red;
+}
+
+.para::after{
+    /* psedo element has double colon */
+    content: " Mahato";
+    color: red;
+}
+
+.para::selection{
+    /* color: green; */
+    background-color: green;
+}
