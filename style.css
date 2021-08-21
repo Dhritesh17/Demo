@@ -1,0 +1,115 @@
+
+    /* CSS Reset */
+    body {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('Files/bg.jpg');
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 50px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 275px;
+        filter: invert(100%);
+        /* filter: invert will alter the colors ie white to black or vice-versa */
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 20px;
+        font-size: 50px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 30px auto;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 35px;
+        top: 45px;
+        display: inline-block;
+        /* border: 2px solid green; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        /* none will remove the default underlines from the content */
+        padding: 5px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(172, 165, 165);
+    }
+
+    .btn {
+        font-family: 'Fredoka One', cursive;
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(41, 36, 36);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 250px 100px;
+        padding: 80px;
+        width: 20%;
+        border-radius: 30px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 15px auto;
+        font-size: 25px;
+        border-radius: 5px;
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 30%;
+        margin: 30px auto;
+    }
